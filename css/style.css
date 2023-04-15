@@ -29,7 +29,7 @@ nav{
 
 a{
     text-decoration: none;
-    font-size: 1.75em;
+    font-size: 1.4em;
     color: white;
 }
 
@@ -38,6 +38,30 @@ main{
     height: 600px;
     text-align: center;
     color:black;
+}
+
+.calificacion input {
+    display: none;
+}
+  
+label {
+    color: grey;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.calificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: #996515;
+}
+
+.calificacion input:checked ~ label {
+    color: #996515;
 }
 
 footer{
@@ -51,10 +75,10 @@ footer{
         justify-content: space-evenly;
     } 
     nav{
-        height: 175px;
+        height: 200px;
     }
     a{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
     
