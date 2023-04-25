@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/2cf1b682c5.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/favicon/icons8-game-of-thrones-512.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Ubicaciones | Game of Thrones</title>
+    <title>Contacto | Game of Thrones</title>
 </head>
 <body>
     <header>
@@ -33,40 +32,33 @@
       </nav>
     </header>
     <main>
-        <div class="form-container">
+        <div class="contact-form">
+            <h1>Formulario de Contacto</h1><br>
             <form action="" method="post">
-                <div>
-                    <p class="opinion">¿Qué te pareció este contenido?</p>
-                </div>
-                <div class="calificacion">
-                    <input type="radio" name="rate" id="rate-5">
-                    <label for="rate-5" class="fa-solid fa-dragon"></label>
-                    <input type="radio" name="rate" id="rate-4">
-                    <label for="rate-4" class="fa-solid fa-dragon"></label>
-                    <input type="radio" name="rate" id="rate-3">
-                    <label for="rate-3" class="fa-solid fa-dragon"></label>
-                    <input type="radio" name="rate" id="rate-2">
-                    <label for="rate-2" class="fa-solid fa-dragon"></label>
-                    <input type="radio" name="rate" id="rate-1">
-                    <label for="rate-1" class="fa-solid fa-dragon"></label>
-                </div>
+                <h3>Escribinos y en breve nos pondremos en contacto con vos</h3><br>
                 <div>
                     <label for="name">Nombre:</label>
                 </div>
                 <div>
-                    <input class="input-form" type="text" name="nombre" id="name" placeholder="Jon Snow">
+                    <input class="input-form" type="text" name="nombre" id="name" placeholder="Jon Snow" required>
                 </div>
                 <div>
                     <label for="email">Email:</label>
                 </div>
                 <div>
-                    <input class="input-form" type="email" name="email" id="email" placeholder="name@example.com">
-                </div>
-                <div class="comentarios">
-                    <label for="comentarios">Comentarios:</label>
+                    <input class="input-form" type="email" name="email" id="email" placeholder="name@example.com" required>
                 </div>
                 <div>
-                    <textarea class="input-form" id="comentarios" rows="4" placeholder="Contanos tu opinión..."></textarea>
+                    <label for="subject">Asunto:</label>
+                </div>
+                <div>
+                    <input class="input-form" type="text" name="asunto" id="subject" placeholder="Escribí un asunto" required>
+                </div>
+                <div class="message">
+                    <label for="comentarios">Mensaje:</label>
+                </div>
+                <div>
+                    <textarea class="input-form" id="comentarios" rows="5" placeholder="Deja aquí tus comentarios..." required></textarea>
                 </div>
                 <input class="submit" type="submit" value="Enviar">
             </form>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cf1b682c5.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/favicon/icons8-game-of-thrones-512.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Personajes | Game of Thrones</title>
@@ -26,13 +27,50 @@
                 <a href="casas.html">Casas</a>
               </li>
               <li class="enlace item5">
-                <a href="feedback.html">Feedback</a>
+                <a href="contacto.html">Contacto</a>
               </li>
           </ul>
       </nav>
     </header>
     <main>
-
+        <div class="form-container">
+            <form action="" method="post">
+                <div>
+                    <p class="opinion">¿Qué te pareció este contenido?</p>
+                </div>
+                <div class="calificacion">
+                    <input type="radio" name="rate" id="rate-5">
+                    <label for="rate-5" class="fa-solid fa-dragon"></label>
+                    <input type="radio" name="rate" id="rate-4">
+                    <label for="rate-4" class="fa-solid fa-dragon"></label>
+                    <input type="radio" name="rate" id="rate-3">
+                    <label for="rate-3" class="fa-solid fa-dragon"></label>
+                    <input type="radio" name="rate" id="rate-2">
+                    <label for="rate-2" class="fa-solid fa-dragon"></label>
+                    <input type="radio" name="rate" id="rate-1">
+                    <label for="rate-1" class="fa-solid fa-dragon"></label>
+                </div>
+                <div>
+                    <label for="name">Nombre:</label>
+                </div>
+                <div>
+                    <input class="input-form" type="text" name="nombre" id="name" placeholder="Jon Snow">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                </div>
+                <div>
+                    <input class="input-form" type="email" name="email" id="email" placeholder="name@example.com">
+                </div>
+                <div class="comentarios">
+                    <label for="comentarios">Comentarios:</label>
+                </div>
+                <div>
+                    <textarea class="input-form" id="comentarios" rows="4" placeholder="Contanos tu opinión..."></textarea>
+                </div>
+                <input class="submit" type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer>
         <h3>© 2023 Derechos reservados HBO® y Home Box Office®</h3>
