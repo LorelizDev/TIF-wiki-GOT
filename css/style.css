@@ -37,10 +37,29 @@ main{
     display: grid;
     grid-template-columns: 100% 0%;
     background-color: #e6c6a6;
-    height: 600px;
     text-align: center;
     color:black;
     padding: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.impar p{
+    text-align: left;
+}
+
+.par p{
+    text-align: left;
+}
+
+.imgimpar{
+    float: right;
+}
+
+.imgpar{
+    float: left;
 }
 
 form {
