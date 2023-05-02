@@ -54,6 +54,10 @@ h1{
     text-align: left;
 }
 
+.parubi p{
+    text-align: right;
+}
+
 .imgimpar{
     float: right;
 }
