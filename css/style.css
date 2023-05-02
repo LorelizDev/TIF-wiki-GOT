@@ -45,7 +45,7 @@ main{
 h1{
     font-size: 50px;
 }
-
+/* Cambio para que los escudos de las casas se intercalen(ver class en div)  */
 .impar p{
     text-align: left;
 }
@@ -67,6 +67,7 @@ form {
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .form-container {
