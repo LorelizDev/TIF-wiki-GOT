@@ -66,6 +66,10 @@ h1{
     float: left;
 }
 
+.sec{
+    padding-top: 50px;
+}
+
 form {
     background-color: rgba(255, 255, 255, 0.558);
     padding: 20px;
