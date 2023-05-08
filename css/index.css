@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:serif;
+    font-size: large;
+}
+
+/* estilo body */
+body{
+    background-image: url(../img/pexels-pixabay-235985.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* logo de la pagina */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* estilo del nav */
+
+.principal{
+    background-color: #470303;
+    width: 100%;
+    font-weight:bold;
+}
+
+.item1:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item2:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item3:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item4:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item5:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+/* estilo de enlaces */
+
+.enlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+/* estilo de la seccion (contenido de la body y columas laterales) */
+
+.primera-seccion{
+    width: 100%;
+    
+}
+
+.primera-seccion .conteiner{
+    min-width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.primera-seccion .conteiner .columna1{
+    text-align: end;
+
+}
+
+p{
+   font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* footer */
+
+footer{
+    
+    min-width: 100%;
+    background-image: url(../img/roman-adamovich-zthXA9EcURY-unsplash.jpg);
+    background-size: cover;
+
+  }
+
+  footer .primer-footer{
+    min-width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+  }
+
+ div .redes-sociales{
+    padding: 0px 25px;
+  }
+
+  div .pago{
+    padding: 0px 25px;
+  }
+
+  footer ul{
+    list-style-type: none;
+    
+}
+
+footer .primer-footer .box h1{
+    font-size: 25px;
+    color: wheat;
+    margin-bottom: 25px;
+}
+
+footer .primer-footer a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: wheat;
+    margin-right: 10px;
+    text-align: center;
+}
+
+footer .primer-footer .mas-info{
+    color: wheat;
+    margin-right: 10px;
+    text-align: center;
+}
+
+footer .primer-footer .datos{
+    color: wheat;
+    margin-right: 10px;
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+footer .segundo-footer {
+    width: 90%;
+    max-width: 1200px; 
+    padding: 25px 0px;
+    opacity: 0.8;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
