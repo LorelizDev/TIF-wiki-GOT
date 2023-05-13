@@ -10,7 +10,7 @@
 
 /* estilo body */
 body{
-    background-image: url(../img/pexels-pixabay-235985.jpg);
+    background-image: url(/img/pexels-pixabay-235985.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -190,7 +190,7 @@ h1{
 footer{
     
     min-width: 100%;
-    background-image: url(../img/roman-adamovich-zthXA9EcURY-unsplash.jpg);
+    background-image: url(/img/roman-adamovich-zthXA9EcURY-unsplash.jpg);
     background-size: cover;
 
   }

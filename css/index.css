@@ -79,7 +79,7 @@ a{
 ul{
     list-style-type: none;
     
-}
+} 
 
 /* estilo de la seccion (contenido de la body y columas laterales) */
 
@@ -116,9 +116,10 @@ footer{
     min-width: 100%;
     background-image: url(../img/roman-adamovich-zthXA9EcURY-unsplash.jpg);
     background-size: cover;
-
+    max-width: 100vh;
   }
 
+  /* redes sociales */
   footer .primer-footer{
     min-width: 100%;
     max-width: 1200px;
@@ -136,26 +137,148 @@ footer{
     padding: 0px 25px;
   }
 
-  footer ul{
-    list-style-type: none;
-    
-}
-
-footer .primer-footer .box h1{
-    font-size: 25px;
+footer .primero{
+    font-size: 30px;
     color: wheat;
-    margin-bottom: 25px;
-}
-
-footer .primer-footer a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: wheat;
-    margin-right: 10px;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .primera-li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 15%;
+    bottom:-8%;
+    transform: translate(-100%, -100%);
+  }
+  
+  footer .primera-li li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+ footer  .primera-li li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #252525;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #252525;
+    transition: .5s;
+    bottom: -50px;
+    left: 175px;
+  }
+  
+  footer .primera-li li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fc2003;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  footer .primera-li li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fc2003;
+  }
+  
+  footer .primera-li li a:hover {
+    color: #fc2003;
+    box-shadow: 0 0 30px #fc2003;
+    text-shadow: 0 0 30px #fc2003;
+  }
+
+  /* pagos */
+footer .segundo{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .pago{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+}
+
+footer .segunda-li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 15%;
+    bottom:-8%;
+    transform: translate(-100%, -100%);
+  }
+  
+  footer .segunda-li li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+ footer  .segunda-li li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #252525;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #252525;
+    transition: .5s;
+    bottom: -50px;
+    left: 53rem;
+  }
+  
+  footer .segunda-li li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fc2003;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  footer .segunda-li li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fc2003;
+  }
+  
+  footer .segunda-li li a:hover {
+    color: #fc2003;
+    box-shadow: 0 0 30px #fc2003;
+    text-shadow: 0 0 30px #fc2003;
+  }
+
+/* info */
+footer .tercero{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 footer .primer-footer .mas-info{
@@ -164,23 +287,14 @@ footer .primer-footer .mas-info{
     text-align: center;
 }
 
-footer .primer-footer .datos{
-    color: wheat;
-    margin-right: 10px;
-    text-align: start;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-footer .segundo-footer {
+/* Musica */
+ footer .segundo-footer {
     width: 90%;
     max-width: 1200px; 
     padding: 25px 0px;
     opacity: 0.8;
     color: wheat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    display: block;
+    left: 2rem;
 }
-
