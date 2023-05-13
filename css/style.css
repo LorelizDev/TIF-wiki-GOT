@@ -58,7 +58,7 @@ form {
 .form-container form {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 37% auto;
     grid-gap: 10px;
 }
 
@@ -76,6 +76,7 @@ form input, textarea {
     border-color: #540101;
     border-width: 1pt;
     font-weight: bold;
+    width: 100%;
 }
 
 form input::placeholder, textarea::placeholder {
@@ -84,7 +85,7 @@ form input::placeholder, textarea::placeholder {
 }
 
 .submit {
-    width: 150px;
+    width: 40%;
     justify-self: center;
     align-self: center;
     background-color: #540101;
@@ -97,7 +98,7 @@ form input::placeholder, textarea::placeholder {
 
 .form-container .submit {
     grid-column: 1 / span 2;
-    width: 100px;
+    width: 30%;
     padding: 0px;
 }
 
@@ -126,14 +127,8 @@ form input::placeholder, textarea::placeholder {
 }
 
 .contact-form {
-    width: 500px;
-    justify-self: center;
-}
-
-.soundtrack {
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin-right: -10px;
+    width: 37%;
+    margin-left: 18%;
 }
 
 .contact-form div {
@@ -145,7 +140,7 @@ form input::placeholder, textarea::placeholder {
 }
 
 .contact-form .input-form, .contact-form textarea {
-    width: 400px;
+    width: 95%;
     padding: 5px;
     font-size: 0.9em;
 }
@@ -159,9 +154,13 @@ form input::placeholder, textarea::placeholder {
 }
 
 .soundtrack iframe {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 600px;
     border-radius: 10px;
+}
+
+.soundtrack {
+    justify-self: flex-end;
 }
 
 footer{
@@ -180,5 +179,32 @@ footer{
     a{
         font-size: 1.1em;
     }
-}
+    .contact-form {
+        width: 80%;
+        justify-self: center;
+        margin-left: 0%;
+    }
     
+    .soundtrack iframe {
+        width: 70px;
+        height: 100px;
+    }
+    .soundtrack {
+        align-self: flex-end;
+        margin-right: -25px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .form-container {
+        width: 60%;
+        font-size: 2vw;
+    }
+    .contact-form {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .soundtrack iframe {
+        width: 200px;
+    }
+}

@@ -34,7 +34,7 @@
     <main>
         <div class="contact-form">
             <h1>Formulario de Contacto</h1><br>
-            <form action="" method="post">
+            <form action="https://formsubmit.co/057685daeb774bae26b98d6e20b776bb" method="post">
                 <h3>Escribinos y en breve nos pondremos en contacto con vos</h3><br>
                 <div>
                     <label for="name">Nombre:</label>
@@ -58,13 +58,18 @@
                     <label for="comentarios">Mensaje:</label>
                 </div>
                 <div>
-                    <textarea class="input-form" id="comentarios" rows="5" placeholder="Deja aquí tus comentarios..." required></textarea>
+                    <textarea class="input-form" id="comentarios" name="mensaje" rows="5" placeholder="Deja aquí tus comentarios..." required></textarea>
                 </div>
                 <input class="submit" type="submit" value="Enviar">
+                
+                <input type="hidden" name="_subject" value="Formulario-Contacto">
+                <input type="hidden" name="_template" value="table"> <!-- Se reciben los datos en forma de tabla -->
+                <input type="hidden" name="_captcha" value="false"> <!-- Deshabilita el captcha -->
+                <!-- <input type="hidden" name="_next" value="https://rami154.github.io/TPO-Grupo7-Wiki-GOT/contacto.html">  --> <!-- Redirecciona a una página en específico -->
             </form>
         </div>
         <div class="soundtrack">
-            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/331156308&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/331156308&color=%23007f00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         </div>
     </main>
     <footer>
