@@ -143,6 +143,13 @@ form {
     grid-gap: 10px;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
 .opinion {
     font-size: 1.1em;
     color: #540101;
