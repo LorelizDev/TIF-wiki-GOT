@@ -34,13 +34,13 @@
     <main>
         <div class="contact-form">
             <h1>Formulario de Contacto</h1><br>
-            <form action="https://formsubmit.co/057685daeb774bae26b98d6e20b776bb" method="post">
+            <form id="contact-form" action="https://formsubmit.co/057685daeb774bae26b98d6e20b776bb" method="post">
                 <h3>Escribinos y en breve nos pondremos en contacto con vos</h3><br>
                 <div>
                     <label for="name">Nombre:</label>
                 </div>
                 <div>
-                    <input class="input-form" type="text" name="nombre" id="name" placeholder="Jon Snow" required>
+                    <input class="input-form" type="text" name="nombre" id="name" placeholder="Jon Snow">
                 </div>
                 <div>
                     <label for="email">Email:</label>
@@ -55,17 +55,17 @@
                     <input class="input-form" type="text" name="asunto" id="subject" placeholder="Escribí un asunto" required>
                 </div>
                 <div class="message">
-                    <label for="comentarios">Mensaje:</label>
+                    <label for="message">Mensaje:</label>
                 </div>
                 <div>
-                    <textarea class="input-form" id="comentarios" name="mensaje" rows="5" placeholder="Deja aquí tus comentarios..." required></textarea>
+                    <textarea class="input-form" id="message" name="mensaje" rows="5" placeholder="Deja aquí tus comentarios..." required></textarea>
                 </div>
                 <input class="submit" type="submit" value="Enviar">
                 
                 <input type="hidden" name="_subject" value="Formulario-Contacto">
                 <input type="hidden" name="_template" value="table"> <!-- Se reciben los datos en forma de tabla -->
                 <input type="hidden" name="_captcha" value="false"> <!-- Deshabilita el captcha -->
-                <!-- <input type="hidden" name="_next" value="https://rami154.github.io/TPO-Grupo7-Wiki-GOT/contacto.html">  --> <!-- Redirecciona a una página en específico -->
+                <input type="hidden" name="_next" value="https://rami154.github.io/TPO-Grupo7-Wiki-GOT/contacto.html"> <!-- Redirecciona a una página en específico -->
             </form>
         </div>
         <div class="soundtrack">
