@@ -12,6 +12,7 @@ body{
     background-image: url(/img/pexels-pixabay-235985.jpg) ;
     background-size: cover;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .logo{
@@ -44,10 +45,86 @@ main{
     display: grid;
     grid-template-columns: 100% 0%;
     background-color: #e6c6a6;
-    height: 600px;
     text-align: center;
     color:black;
     padding: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+/* Cambio para que los escudos de las casas se intercalen(ver class en div)  */
+.impar p{
+    text-align: left;
+}
+
+.par p{
+    text-align: left;
+}
+
+.parubi p{
+    text-align: right;
+}
+
+.imgimpar{
+    float: right;
+}
+
+.imgpar{
+    float: left;
+}
+
+.sec{
+    padding-top: 50px;
+}
+
+/* Estilo del carrusel */
+.carrusel{
+    justify-self: center;
+    width: 80%;
+    max-width: 120em;
+    background-color: #ddb58d;
+    margin-bottom: 10em;
+    overflow: hidden;
+}
+
+.carrusel .grande{
+    width: 400%;
+
+    display: flex;
+    flex-flow: flow no-wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.carrusel .img{
+    width: calc(95% / 4);
+    min-height: 10vh;
+    justify-content: center;
+}
+
+.carrusel .puntos{
+    width: 100%;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: flow no-wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel .punto{
+    width: 1em;
+    height: 1em;
+    background-color: #e6c6a6;
+    margin: 1em 1em 0;
+    list-style: none;
+    border-radius: 25%;
+}
+
+.carrusel .punto.activo{
+    background-color: #bd854c;
 }
 
 form {
@@ -55,6 +132,7 @@ form {
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .form-container {
@@ -67,6 +145,13 @@ form {
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
 }
 
 .opinion {
