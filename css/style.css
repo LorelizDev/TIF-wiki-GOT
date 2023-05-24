@@ -9,7 +9,7 @@
 
 /* estilo body */
 body{
-    background-image: url(img/pexels-pixabay-235985.jpg) ;
+    background-image: url(/img/pexels-pixabay-235985.jpg) ;
     background-size: cover;
     min-height: 100vh;
 }
@@ -232,7 +232,7 @@ footer{
 
 h1{ 
     font-family: 'Cinzel', serif;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     text-align: center;
     margin-top: 3.125rem;
     color: black;
@@ -251,7 +251,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     color: black;
-    filter: drop-shadow(5px 5px 5px  rgb(176, 230, 233));
+    filter: drop-shadow(3px 3px 5px  rgb(176, 230, 233));
     
 }
 
@@ -260,7 +260,6 @@ p{
     text-align: center;
     width: 100%;
     height: auto;
-    /* padding: 10px; */
     margin-top: 3.375rem;
     margin-block-end: -30px;
     filter: drop-shadow(3px 2px 2px rgb(198, 239, 252));
@@ -272,7 +271,6 @@ p{
     margin-block-start: auto;
     margin-block-end: auto;
     margin-top: 3.125rem;
-    /* margin-block-start: 3%; */
     margin-block-end: 4%;
     border-radius: 10px;
     filter: drop-shadow(5px 5px 10px rgb(24, 22, 22));
