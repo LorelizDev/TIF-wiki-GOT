@@ -15,7 +15,7 @@ punto.forEach( ( cadaPunto, i )=> {
     })
 })
 
-//Validacion formulario
+//Validacion formulario de contacto
 const nombre = document.getElementById('name')
 const email = document.getElementById('email')
 const asunto = document.getElementById('subject')

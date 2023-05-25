@@ -37,6 +37,10 @@ a{
     color: white;
 }
 
+#menu, #menu-check, #line-nav {
+    display: none;
+}
+
 main{
     display: grid;
     grid-template-columns: 100% 0%;
@@ -148,6 +152,7 @@ form {
     text-align: center;
     margin: auto;
     padding-top: 20px;
+    color: red;
 }
 
 .opinion {
@@ -188,6 +193,14 @@ form input::placeholder, textarea::placeholder {
     grid-column: 1 / span 2;
     width: 30%;
     padding: 0px;
+}
+
+#aviso {
+    grid-column: 1 / span 2;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    color: red;
 }
 
 .calificacion input {
@@ -260,10 +273,45 @@ footer{
     .enlace {
         flex-direction: column;
         justify-content: space-evenly;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
     } 
     nav{
-        height: 200px;
+        height: 160px;
     }
+
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+
+    #menu-check:checked ~ nav {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        color: white;
+        background-color: #540101;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-left: 0.6em;
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-cerrar,   #menu-check:checked ~ #line-nav {
+        display: block;
+        font-size: 0.8em;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+
     a{
         font-size: 1.1em;
     }
