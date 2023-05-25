@@ -74,55 +74,6 @@ h1{
     padding-top: 50px;
 }
 
-/* Estilo del carrusel */
-.carrusel{
-    justify-self: center;
-    width: 80%;
-    max-width: 120em;
-    background-color: #ddb58d;
-    margin-bottom: 10em;
-    overflow: hidden;
-}
-
-.carrusel .grande{
-    width: 400%;
-
-    display: flex;
-    flex-flow: flow no-wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
-}
-
-.carrusel .img{
-    width: calc(95% / 4);
-    min-height: 10vh;
-    justify-content: center;
-}
-
-.carrusel .puntos{
-    width: 100%;
-    padding: 1em;
-
-    display: flex;
-    flex-flow: flow no-wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrusel .punto{
-    width: 1em;
-    height: 1em;
-    background-color: #e6c6a6;
-    margin: 1em 1em 0;
-    list-style: none;
-    border-radius: 25%;
-}
-
-.carrusel .punto.activo{
-    background-color: #bd854c;
-}
-
 form {
     background-color: rgba(255, 255, 255, 0.558);
     padding: 20px;
