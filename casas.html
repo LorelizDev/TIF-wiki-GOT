@@ -12,6 +12,12 @@
 <body>
     <header>
       <img class="logo" src="img/banner-GOT.png" alt="Game of Thrones logo">
+      <input type="checkbox" id="menu-check">
+      <label for="menu-check" id="menu">
+          <span id="menu-abrir">&#9776;</span>
+          <span id="menu-cerrar">X</span>
+      </label>
+      <hr id="line-nav">
       <nav>
           <ul class="enlace">
               <li class="enlace item1">
@@ -155,7 +161,7 @@
         </section>
         <br>
         <div class="form-container">
-            <form action="https://formsubmit.co/057685daeb774bae26b98d6e20b776bb" method="post">
+            <form id="form-rating" action="https://formsubmit.co/057685daeb774bae26b98d6e20b776bb" method="post">
                 <div>
                     <p class="opinion">¿Qué te pareció este contenido?</p>
                 </div>
@@ -190,6 +196,7 @@
                     <textarea class="input-form" name="mensaje" id="comentarios" rows="4" placeholder="Contanos tu opinión..."></textarea>
                 </div>
                 <input class="submit" type="submit" value="Enviar">
+                <p class="aviso" id="aviso"></p>
 
                 <input type="hidden" name="_subject" value="Rating-Casas">
                 <input type="hidden" name="_captcha" value="false">
@@ -203,5 +210,6 @@
     <footer>
         <h3>© 2023 Derechos reservados HBO® y Home Box Office®</h3>
     </footer>
+    <script src="js/form-rating.js"></script>
 </body>
 </html>
