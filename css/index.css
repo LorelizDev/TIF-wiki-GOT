@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:serif;
+    font-size: large;
+}
+
+/* estilo body */
+body{
+    background-image: url(/img/pexels-pixabay-235985.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* logo de la pagina */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* estilo del nav */
+
+.principal{
+    background-color: #470303;
+    width: 100%;
+    font-weight:bold;
+}
+
+.item1:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item2:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item3:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item4:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+.item5:hover{
+    transition: 0.2s;
+    padding: 10px;
+    background-color: #830505;
+}
+
+/* estilo de enlaces */
+
+.enlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    
+} 
+
+/* estilo de la seccion (contenido de la body y columas laterales) */
+
+.primera{
+    width: 100%;
+    
+}
+
+.primera .contenedor{
+    min-width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.primera .contenedor .columna1{
+    text-align: end;
+
+}
+
+p{
+   font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Style de las casas gral*/
+
+.primera-seccion{
+  width: 90%;
+  padding: 20px;
+  margin: auto; 
+  border-style: none none double none;
+}
+
+.cont{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+}
+
+.logo{
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video{
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+}
+
+/* Titulos de las casas */
+
+h5{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px; 
+}
+
+/* Casas */
+.lannister{
+
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+.targaryen{
+
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.stark{
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baratheon{
+  min-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.descripcion{
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  border-style: none none double none;
+}
+
+h1{
+  padding: 40px 0px 0px 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+/* footer */
+
+footer{
+    
+    min-width: 100%;
+    background-image: url(../img/roman-adamovich-zthXA9EcURY-unsplash.jpg);
+    background-size: cover;
+    max-width: 100vh;
+  }
+
+  /* redes sociales */
+  footer .primer-footer{
+    min-width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+  }
+
+  footer ul{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+
+ div .redes-sociales{
+    padding: 0px 25px;
+  }
+
+  div .pago{
+    padding: 0px 25px;
+  }
+
+footer .primero{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .primera-li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 22%;
+    bottom:-15%;
+    transform: translate(-100%, -100%);
+  }
+  
+  footer .primera-li li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+ footer  .primera-li li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #252525;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #252525;
+    transition: .5s;
+  }
+  
+  footer .primera-li li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fc2003;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  footer .primera-li li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fc2003;
+  }
+  
+  footer .primera-li li a:hover {
+    color: #fc2003;
+    box-shadow: 0 0 30px #fc2003;
+    text-shadow: 0 0 30px #fc2003;
+  }
+
+  /* pagos */
+footer .segundo{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .pago{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+}
+
+footer .segunda-li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 56%;
+    bottom:-15%; 
+    transform: translate(-100%, -100%);
+  }
+  
+  footer .segunda-li li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+ footer  .segunda-li li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #252525;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #252525;
+    transition: .5s;
+  }
+  
+  footer .segunda-li li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fc2003;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  footer .segunda-li li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fc2003;
+  }
+  
+  footer .segunda-li li a:hover {
+    color: #fc2003;
+    box-shadow: 0 0 30px #fc2003;
+    text-shadow: 0 0 30px #fc2003;
+  }
+
+/* info */
+footer .tercero{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .primer-footer .mas-info{
+    color: wheat;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Musica */
+ footer .segundo-footer {
+    width: 90%;
+    max-width: 1200px; 
+    padding: 25px 0px;
+    opacity: 0.8;
+    color: wheat;
+    position: relative;
+    display: block;
+    left: 2rem;
+}
