@@ -279,16 +279,12 @@ p {
 
 .imgimpar {
   float: right;
+  border-radius: 10px;
 }
 
 .imgpar {
   float: left;
-}
-
-.ubicaciones {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 10px;
 }
 
 /* formulario de calificación */
@@ -692,7 +688,7 @@ footer .segundo-footer {
     max-width: 75rem;
   }
 
-  .video {
+  .video-promo {
     min-width: 6.25rem;
     max-width: 75rem;
   }
@@ -748,7 +744,7 @@ footer .segundo-footer {
     max-width: 12.5rem;
   }
 
-  .video {
+  .video-promo {
     min-width: 100px;
     max-width: 450px;
     margin-left: auto;
@@ -760,6 +756,14 @@ footer .segundo-footer {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .conteiner{
+    grid-template-columns: auto;
+  }
+
+  .video {
+    margin-left: 0;
   }
 
   #contacto h1 {
@@ -818,10 +822,33 @@ footer .segundo-footer {
     font-size: 1.1em;
   }
 
+  .conteiner{
+    grid-template-columns: auto;
+  }
+
+  .video {
+    margin-left: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .fa-solid {
+    font-size: 5vw;
+  }
+
+  .form-container form {
+    grid-template-columns: 30% auto;
+  }
+
   .contact-form {
     width: 90%;
     justify-self: center;
     margin-left: 0%;
+    margin-top: -30px;
+    font-size: 0.9em;
   }
 }
 
@@ -901,7 +928,7 @@ footer .segundo-footer {
     display: none;
   }
 
-  .video {
+  .video-promo {
     min-width: 6.25rem;
     max-width: 21.875rem;
     margin-left: auto;
@@ -920,8 +947,16 @@ footer .segundo-footer {
     justify-self: center;
   }
 
+  .conteiner{
+    grid-template-columns: auto;
+  }
+
+  .video {
+    margin-left: 0;
+  }
+
   #contacto h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 }
 
@@ -932,7 +967,7 @@ footer .segundo-footer {
     height: 100%;
   }
 
-  .conteiner1 {
+  /* .conteiner1 {
     min-width: 6.25rem;
     max-width: 12.5rem;
   }
@@ -945,7 +980,7 @@ footer .segundo-footer {
   .texto-inicio {
     min-width: 6.25rem;
     max-width: 12.5rem;
-  }
+  } */
 
 
   .columna {
@@ -960,7 +995,7 @@ footer .segundo-footer {
     display: none;
   }
 
-  .video {
+  .video-promo {
     min-width: 6.25rem;
     max-width: 15.625rem;
     margin-left: auto;
@@ -974,5 +1009,22 @@ footer .segundo-footer {
 
   .animate__animated {
     width: 100%;
+  }
+
+  .conteiner{
+    grid-template-columns: auto;
+  }
+
+  .video {
+    margin-left: 0;
+  }
+
+  #contacto h1 {
+    font-size: 7vw;
+  }
+
+  .contact-form {
+    margin-top: -30px;
+    font-size: 3vw;
   }
 }
