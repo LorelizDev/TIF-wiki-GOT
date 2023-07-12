@@ -48,7 +48,7 @@ a {
   color: white;
 }
 
-.item1:hover, .item2:hover, .item3:hover:hover, .item4:hover, .item5:hover{
+.item1:hover, .item2:hover, .item3:hover:hover, .item4:hover, .item5:hover, .item6:hover{
   transition: 0.2s;
   padding: 5px;
   background-color: #830505;
@@ -897,6 +897,44 @@ footer .segundo-footer {
     margin-left: -5%;
     justify-self: space-between;
   }
+}
+
+/* Tienda */
+.card {
+  height: 31vw;
+}
+
+.card-title, .card-text {
+  padding: 0% !important;
+}
+
+.card-img-top {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 70%;
+  padding-top: 2em;
+  object-fit: contain;
+}
+
+/* CRUD */
+.navbar {
+  background-image: url(../img/banner-GOT.png);
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #007f00;
+}
+
+.btn-danger {
+  background-color: #540101;
+}
+
+.table-light {
+  font-weight: bold;
 }
 
 /* Tablets y phablets */
